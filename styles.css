@@ -1,0 +1,44 @@
+* {
+    font-family: poppins !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .catogories{
+        display: none;
+    }
+}
+
+.navbar {
+    background-color: cadetblue;
+}
+
+.menu {
+    background-color: cadetblue;
+}
+
+.menu>div>ul>li :hover {
+    text-decoration: underline;
+}
+
+.catogories {
+    background-color: rgb(160, 145, 95);
+    color: white;
+}
+
+.catogories>div>div {
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+}
+
+.catogories>div>div>a {
+    color: white;
+    text-decoration: none;
+}
+
+.catogories>div :hover {
+    background-color: rgb(110, 101, 72);
+}
+
+.footer{
+    background-color: cadetblue;
+}
